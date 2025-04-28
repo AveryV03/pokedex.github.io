@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Pokémon</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="dotsDiv">
+        <div class="greyRing">     
+       <div class="blueDiv"></div></div>
+        <div class="redDiv"></div>
+        <div class="yellowDiv"></div>
+        <div class="greenDiv"></div>
+    </div>
+    <div class="search">
+        <input type="text" id="searchText" placeholder="pikachu or 25">
+        <button id="searchButt">Search</button>
+    </div>
+    <div class="imgDiv">
+        <div class="typeDiv">
+            <p>Type:</p>
+            <p id="type0"></p>
+            <p id="type1"></p>
+        </div>
+        <img id="pokeImage" src="" alt="">
+        <div class="nameid">
+            <p id="name"></p>
+            <p>Id:</p>
+            <p id="ID"></p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="statsDiv">
+            <p>HP:</p>
+            <p id="stat0"></p>
+            <p>AK:</p>
+            <p id="stat1"></p>
+            <p>DF:</p>
+            <p id="stat2"></p>
+            <p>SA:</p>
+            <p id="stat3"></p>
+            <p>SD:</p>
+            <p id="stat4"></p>
+            <p>SP:</p>
+            <p id="stat5"></p>
+        </div>
+
+        <div class="buttDiv">
+            <button id="back"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</div>
+</body>
+
+</html>
